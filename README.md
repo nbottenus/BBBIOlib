@@ -1,3 +1,13 @@
+Nick modifications:
+
+Requires Cython installed
+
+Getting started:
+1) In the root directory, run make
+2) In the ADC_Python directory, run make
+3) Look at test.py for a sample program
+
+
 BBBiolib
 =======
 
