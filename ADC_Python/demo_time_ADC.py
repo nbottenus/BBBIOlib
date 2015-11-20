@@ -11,6 +11,8 @@ import ADC_PRU as ADC
 N=10
 num_vals=10000
 
+ADC.set_clk(160) #Optional, 160 is default (10kHz), 16=100 kHz
+
 np_vals=np.empty(num_vals,dtype=np.intc)
 for i in range(0,N):
     t1=time.time()

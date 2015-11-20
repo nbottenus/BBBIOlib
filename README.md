@@ -8,7 +8,7 @@ Getting started:
 
 2) Run make ADC_PYTHON
 
-3) Look at ADC_Python/test.py for a sample program
+3) Look at ADC_Python/demo_* for sample programs
 
 
 BBBiolib

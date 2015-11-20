@@ -79,7 +79,6 @@ DAC_VOICE : ${DEMO_PATH}Demo_DAC/DAC_voice.c libBBBio.a
 ADC_PYTHON :
 	cd ADC_Python;cython ADC_PRU.pyx
 	cd ADC_Python;gcc -shared -pthread -fPIC -fwrapv -O2 -Wall -fno-strict-aliasing -I/usr/include/python2.7 -lpython2.7 -o ADC_PRU.so ./ADC_PRU.c -L ../BBBio_lib -lBBBio -lm
-	cd ..
     
 #---------------------------------------------------
 # toolkit 
