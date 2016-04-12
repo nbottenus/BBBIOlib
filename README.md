@@ -10,6 +10,7 @@ Getting started:
 
 3) Look at ADC_Python/demo_* for sample programs
 
+The program is currently set up to read from AIN0, but could be changed or made variable in the future
 
 BBBiolib
 =======
